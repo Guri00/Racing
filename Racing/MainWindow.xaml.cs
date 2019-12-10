@@ -20,7 +20,7 @@ namespace Racing
    //Game logic
     public partial class MainWindow : Window
     {
-        //Set total racer count to 4
+        //Set total racer count to be 4
         private const int racer_count = 4;
         private List<(double Top, double Left)> _RacerPositionList = new List<(double, double)>();
         private List<RacerModel> _RacerModelList = new List<RacerModel>();
